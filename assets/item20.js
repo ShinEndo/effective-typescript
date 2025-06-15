@@ -19,6 +19,5 @@ const frozenObj = Object.freeze({ x: 1, y: 2 });
 const capitals1 = { ny: [1.0000, 2.0000], ca: [2.00000, 3.0000] };
 const capitals2 = {
     ny: [1.0000, 2.0000],
-    ca: [2.0000, 3.0000],
-}, satisfies, Record;
-, Point > ;
+    ca: [2.0000, 3.0000]
+};

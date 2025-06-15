@@ -30,5 +30,5 @@ type Point = [number,number];
 const capitals1 = { ny: [1.0000,2.0000], ca:[2.00000,3.0000]};
 const capitals2 = {
 	ny: [1.0000,2.0000],
-	ca: [2.0000,3.0000],
-} satisfies Record<string,Point>;
+	ca: [2.0000,3.0000]
+} satisfies Record<string, Point>;
