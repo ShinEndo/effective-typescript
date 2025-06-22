@@ -1,5 +1,4 @@
 "use strict";
-var _a;
 {
     const elem = document.getElementById('what-time-is-it');
     if (elem) {
@@ -100,6 +99,6 @@ var _a;
 {
     const nameToNickname = new Map();
     const yourName = 'Jack';
-    const nameToUse = (_a = nameToNickname.get(yourName)) !== null && _a !== void 0 ? _a : yourName;
+    const nameToUse = nameToNickname.get(yourName) ?? yourName;
     console.log(nameToUse);
 }
