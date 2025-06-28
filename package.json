@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^24.0.7",
-    "expect-type": "^1.2.1"
+    "expect-type": "^1.2.1",
+    "typescript": "^5.8.3"
   }
 }
